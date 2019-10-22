@@ -2,11 +2,25 @@
 
 /*Default Styles*/
 // General style overrides and custom classes
+//@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mrs+Sheppards|Raleway:400,700,900&display=swap');
 body{
-    font-family: 'Karla', sans-serif;
+    font-family: $rale
+}
+
+.intro{
+    font-family: $sheppards
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Dosis', sans-serif;
+    //font-family: 'Dosis', sans-serif;
     font-weight: 500;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
 }
